@@ -27,8 +27,12 @@ The automation is designed using a modular Page Object Model (POM) structure, wi
   - Use email domain: `@example.com` or `@mailinator.com`  
   - Increase _aanbetaling_ and _looptijd_ to observe rate adjustment
   - Request a lease quote
+ 
+---
 
 ## Folder Structure
+
+```bash
 .
 ├── .github           # GitHub Actions workflow (CI)
 ├── fixtures          # Test data (login, form inputs)
@@ -36,10 +40,12 @@ The automation is designed using a modular Page Object Model (POM) structure, wi
 ├── tests             # Playwright spec files (E2E scenarios)
 ├── README.md
 
-
+---
 
 ## E2E Test Coverage
 Make sure Node.js and Yarn are installed.
+
+```bash
 
 git clone https://github.com/ArunaMendis/BeeQuip-Assessment-Final.git
 cd BeeQuip-Assessment-Final
@@ -47,6 +53,8 @@ yarn install
 yarn playwright install
 
 ## Run the test runner UI:
+
+```bash
 
 yarn playwright test --ui
 
