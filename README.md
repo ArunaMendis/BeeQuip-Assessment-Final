@@ -28,15 +28,7 @@ The automation is designed using a modular Page Object Model (POM) structure, wi
   - Increase _aanbetaling_ and _looptijd_ to observe rate adjustment
   - Request a lease quote
 
-**Stretch Goals:**
-- Add assertion for confirmation page or email content
-- Parameterize tests for _aanbetaling_ and _looptijd_ using fixture-driven approach
-
----
-
 ## Folder Structure
-
-```bash
 .
 ├── .github           # GitHub Actions workflow (CI)
 ├── fixtures          # Test data (login, form inputs)
@@ -44,12 +36,10 @@ The automation is designed using a modular Page Object Model (POM) structure, wi
 ├── tests             # Playwright spec files (E2E scenarios)
 ├── README.md
 
----
+
 
 ## E2E Test Coverage
 Make sure Node.js and Yarn are installed.
-
-```bash
 
 git clone https://github.com/ArunaMendis/BeeQuip-Assessment-Final.git
 cd BeeQuip-Assessment-Final
@@ -61,4 +51,5 @@ yarn playwright install
 yarn playwright test --ui
 
 ## Sample Execution Report
+<img width="2862" height="1796" alt="Screenshot 2025-07-30 at 23 50 35" src="https://github.com/user-attachments/assets/036649bd-76a3-4654-8c8d-24011648ba78" />
 
