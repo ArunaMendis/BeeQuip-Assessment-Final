@@ -30,6 +30,11 @@ The automation is designed using a modular Page Object Model (POM) structure, wi
  
 ---
 
+## Sample Execution Report
+<img width="2862" height="1796" alt="Screenshot 2025-07-30 at 23 50 35" src="https://github.com/user-attachments/assets/036649bd-76a3-4654-8c8d-24011648ba78" />
+
+---
+
 ## Folder Structure
 
 ```bash
@@ -57,7 +62,3 @@ yarn playwright install
 ```bash
 
 yarn playwright test --ui
-
-## Sample Execution Report
-<img width="2862" height="1796" alt="Screenshot 2025-07-30 at 23 50 35" src="https://github.com/user-attachments/assets/036649bd-76a3-4654-8c8d-24011648ba78" />
-
