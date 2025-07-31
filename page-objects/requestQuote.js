@@ -18,7 +18,7 @@ export class RequestQuote {
     await expect(this.contactName).toBeVisible();
     await this.contactName.fill("Aruna Mendis");
     await expect(this.contactNumber).toBeVisible();
-    await this.contactNumber.fill("01003400844");
+    await this.contactNumber.fill("+310102400844");
     await expect(this.contactEmail).toBeVisible();
     await expect(this.contactEmail).toHaveValue("beequip@test.com");
     await expect(this.contactTime).toBeVisible();
